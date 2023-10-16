@@ -73,6 +73,7 @@ header h1 {
   height: 3.2rem;
   border: none;
   padding: 0 1rem;
+  cursor: pointer;
 }
 
 .search button:hover {
@@ -144,4 +145,6 @@ td .remove {
   background: none;
   border: none;
   color: red;
+
+  cursor: pointer;
 }
