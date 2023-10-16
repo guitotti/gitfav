@@ -39,7 +39,6 @@ export class Favorites {
   delete(user) {
     const filteredEntries = this.entries.filter((entry) => {
       entry.login !== user.login
-      console.log(entry, user)
     })
 
     this.entries = filteredEntries
@@ -99,17 +98,17 @@ export class FavoritesView extends Favorites {
     const tr = document.createElement('tr')
     tr.innerHTML = `
         <td class="user">
-           <img src="https://github.com/guitotti.png" alt="Imagem de guitotti">
-           <a href="https://github.com/guitotti" target="_blank">
-             <p>Guilherme Totti</p>
-             <span>guitotti</span>
+           <img src="" alt="">
+           <a href="" target="_blank">
+             <p></p>
+             <span></span>
            </a>
          </td>
          <td class="repositories">
-           34
+           
          </td>
          <td class="followers">
-           2
+           
          </td>
          <td>
            <button class="remove">&times;</button>
